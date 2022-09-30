@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#global__ad-pods": {
+    "title": "Ad Pods Container",
+    "children": [
+      "flex-layout.col#global__ad-pods"
+    ],
+    "props": {
+      "blockClass": "global__ad-pods",
+      "fullWidth": "true"
+    }
+  },
+  "flex-layout.col#global__ad-pods": {
+    "children": [
+      "rich-text#global__ad-pods--title",
+      "list-context.ad-pods-list"
+    ]
+  },
+  "rich-text#global__ad-pods--title": {
+    "props": {
+      "text": "## CATEGORÍAS DESTACADAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "ad-pods__title"
+    }
+  },
+  "list-context.ad-pods-list": {
+    "children": ["slider-layout#ad-pods__images"],
+    "props": {
+      "adPods": [
+        {
+          "image": "assets/img/air-pod-base.png"
+        },
+        {
+          "image": "assets/img/air-pod-base.png"
+        },
+        {
+          "image": "assets/img/air-pod-base.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#ad-pods__images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "ad-pods__images"
+    }
+  }
+}

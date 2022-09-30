@@ -6,6 +6,8 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
+      "flex-layout.row#global__ad-pods",
+      "flex-layout.row#global__promo-grid",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",

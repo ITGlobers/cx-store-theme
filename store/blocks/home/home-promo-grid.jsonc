@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#global__promo-grid": {
+    "title": "Contenedor de grilla de promociones",
+    "children": [
+      "promo-grid"
+    ],
+    "props": {
+      "className": "promo-grid",
+      "fullWidth": "true"
+    }
+  },
+  "promo-grid": {
+    "props": {
+      "mobileImageMain": "assets/img/main-grid-image-mobile.jpg",
+      "desktopImageMain": "assets/img/main-grid-image-desktop.jpg",
+      "titleMain": "Mi título",
+      "descriptionMain": "Molestie massa vel odio felis amet ac tellus",
+      "ctaMain": "Ver más",
+      "hrefMain": "/",
+
+      "mobileImageOne": "assets/img/promo-grid-square-mobile.jpg",
+      "desktopImageOne": "assets/img/promo-grid-square-desktop.jpg",
+      "titleOne": "Mi título",
+      "ctaOne": "Ver más",
+      "hrefOne": "/",
+
+      "mobileImageTwo": "assets/img/promo-grid-tall-mobile.jpg",
+      "desktopImageTwo": "assets/img/promo-grid-tall-desktop.jpg",
+      "titleTwo": "Mi título",
+      "descriptionTwo": "Molestie massa vel odio felis amet ac tellus",
+      "ctaTwo": "Ver más",
+      "hrefTwo": "/",
+
+      "mobileImageThree": "assets/img/promo-grid-square-mobile.jpg",
+      "desktopImageThree": "assets/img/promo-grid-square-desktop.jpg",
+      "titleThree": "Mi título",
+      "ctaThree": "Ver más",
+      "hrefThree": "/",
+
+      "mobileImageFour": "assets/img/promo-grid-tall-mobile.jpg",
+      "desktopImageFour": "assets/img/promo-grid-tall-desktop.jpg",
+      "titleFour": "Mi título",
+      "descriptionFour": "Molestie massa vel odio felis amet ac tellus",
+      "ctaFour": "Ver más",
+      "hrefFour": "/"
+    }
+  }
+}
